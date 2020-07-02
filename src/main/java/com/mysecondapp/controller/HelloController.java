@@ -10,5 +10,10 @@ public class HelloController {
 		return "YAMAHA,HONDA,DUCATI";
 		
 	}
+	@RequestMapping("/colours")
+	public String color() {
+		return "RED,White";
+		
+	}
 
 }
